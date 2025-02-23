@@ -68,16 +68,18 @@
             this.PanelMenu.Controls.Add(this.PanelMenuSuperior);
             this.PanelMenu.Dock = System.Windows.Forms.DockStyle.Left;
             this.PanelMenu.Location = new System.Drawing.Point(0, 0);
+            this.PanelMenu.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.PanelMenu.Name = "PanelMenu";
-            this.PanelMenu.Size = new System.Drawing.Size(200, 709);
+            this.PanelMenu.Size = new System.Drawing.Size(225, 886);
             this.PanelMenu.TabIndex = 0;
             // 
             // PanelSeleccion
             // 
             this.PanelSeleccion.BackColor = System.Drawing.Color.White;
-            this.PanelSeleccion.Location = new System.Drawing.Point(1, 132);
+            this.PanelSeleccion.Location = new System.Drawing.Point(1, 165);
+            this.PanelSeleccion.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.PanelSeleccion.Name = "PanelSeleccion";
-            this.PanelSeleccion.Size = new System.Drawing.Size(6, 45);
+            this.PanelSeleccion.Size = new System.Drawing.Size(7, 56);
             this.PanelSeleccion.TabIndex = 9;
             // 
             // btnReportes
@@ -91,9 +93,10 @@
             this.btnReportes.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnReportes.IconSize = 35;
             this.btnReportes.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnReportes.Location = new System.Drawing.Point(2, 461);
+            this.btnReportes.Location = new System.Drawing.Point(2, 576);
+            this.btnReportes.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnReportes.Name = "btnReportes";
-            this.btnReportes.Size = new System.Drawing.Size(195, 51);
+            this.btnReportes.Size = new System.Drawing.Size(219, 64);
             this.btnReportes.TabIndex = 8;
             this.btnReportes.Text = "Reportes";
             this.btnReportes.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -110,9 +113,10 @@
             this.btnVentas.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnVentas.IconSize = 35;
             this.btnVentas.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnVentas.Location = new System.Drawing.Point(2, 406);
+            this.btnVentas.Location = new System.Drawing.Point(2, 508);
+            this.btnVentas.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnVentas.Name = "btnVentas";
-            this.btnVentas.Size = new System.Drawing.Size(195, 51);
+            this.btnVentas.Size = new System.Drawing.Size(219, 64);
             this.btnVentas.TabIndex = 7;
             this.btnVentas.Text = "Ventas";
             this.btnVentas.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -129,9 +133,10 @@
             this.btnInventarios.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnInventarios.IconSize = 35;
             this.btnInventarios.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnInventarios.Location = new System.Drawing.Point(2, 351);
+            this.btnInventarios.Location = new System.Drawing.Point(2, 439);
+            this.btnInventarios.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnInventarios.Name = "btnInventarios";
-            this.btnInventarios.Size = new System.Drawing.Size(195, 51);
+            this.btnInventarios.Size = new System.Drawing.Size(219, 64);
             this.btnInventarios.TabIndex = 6;
             this.btnInventarios.Text = "Inventarios";
             this.btnInventarios.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -148,9 +153,10 @@
             this.btnProductos.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnProductos.IconSize = 35;
             this.btnProductos.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnProductos.Location = new System.Drawing.Point(2, 296);
+            this.btnProductos.Location = new System.Drawing.Point(2, 370);
+            this.btnProductos.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnProductos.Name = "btnProductos";
-            this.btnProductos.Size = new System.Drawing.Size(195, 51);
+            this.btnProductos.Size = new System.Drawing.Size(219, 64);
             this.btnProductos.TabIndex = 5;
             this.btnProductos.Text = "Productos";
             this.btnProductos.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -167,9 +173,10 @@
             this.btnCategorias.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnCategorias.IconSize = 35;
             this.btnCategorias.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCategorias.Location = new System.Drawing.Point(2, 241);
+            this.btnCategorias.Location = new System.Drawing.Point(2, 301);
+            this.btnCategorias.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnCategorias.Name = "btnCategorias";
-            this.btnCategorias.Size = new System.Drawing.Size(195, 51);
+            this.btnCategorias.Size = new System.Drawing.Size(219, 64);
             this.btnCategorias.TabIndex = 4;
             this.btnCategorias.Text = "Categorias";
             this.btnCategorias.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -181,18 +188,20 @@
             this.btnProveedores.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnProveedores.Font = new System.Drawing.Font("Calisto MT", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnProveedores.ForeColor = System.Drawing.Color.White;
-            this.btnProveedores.IconChar = FontAwesome.Sharp.IconChar.Truck;
+            this.btnProveedores.IconChar = FontAwesome.Sharp.IconChar.MoneyCheckDollar;
             this.btnProveedores.IconColor = System.Drawing.Color.White;
             this.btnProveedores.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnProveedores.IconSize = 35;
             this.btnProveedores.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnProveedores.Location = new System.Drawing.Point(2, 186);
+            this.btnProveedores.Location = new System.Drawing.Point(2, 232);
+            this.btnProveedores.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnProveedores.Name = "btnProveedores";
-            this.btnProveedores.Size = new System.Drawing.Size(195, 51);
+            this.btnProveedores.Size = new System.Drawing.Size(219, 64);
             this.btnProveedores.TabIndex = 3;
-            this.btnProveedores.Text = "Proveedores";
+            this.btnProveedores.Text = "Cuentas";
             this.btnProveedores.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnProveedores.UseVisualStyleBackColor = true;
+            this.btnProveedores.Click += new System.EventHandler(this.btnProveedores_Click);
             // 
             // btnClientes
             // 
@@ -205,9 +214,10 @@
             this.btnClientes.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnClientes.IconSize = 35;
             this.btnClientes.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnClientes.Location = new System.Drawing.Point(2, 131);
+            this.btnClientes.Location = new System.Drawing.Point(2, 164);
+            this.btnClientes.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnClientes.Name = "btnClientes";
-            this.btnClientes.Size = new System.Drawing.Size(195, 51);
+            this.btnClientes.Size = new System.Drawing.Size(219, 64);
             this.btnClientes.TabIndex = 2;
             this.btnClientes.Text = "Clientes";
             this.btnClientes.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -219,9 +229,10 @@
             this.PanelMenuInferior.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.PanelMenuInferior.Controls.Add(this.btnConfiguracion);
             this.PanelMenuInferior.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.PanelMenuInferior.Location = new System.Drawing.Point(0, 595);
+            this.PanelMenuInferior.Location = new System.Drawing.Point(0, 744);
+            this.PanelMenuInferior.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.PanelMenuInferior.Name = "PanelMenuInferior";
-            this.PanelMenuInferior.Size = new System.Drawing.Size(198, 112);
+            this.PanelMenuInferior.Size = new System.Drawing.Size(223, 140);
             this.PanelMenuInferior.TabIndex = 1;
             // 
             // btnConfiguracion
@@ -235,9 +246,10 @@
             this.btnConfiguracion.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnConfiguracion.IconSize = 35;
             this.btnConfiguracion.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnConfiguracion.Location = new System.Drawing.Point(1, 3);
+            this.btnConfiguracion.Location = new System.Drawing.Point(1, 4);
+            this.btnConfiguracion.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnConfiguracion.Name = "btnConfiguracion";
-            this.btnConfiguracion.Size = new System.Drawing.Size(195, 108);
+            this.btnConfiguracion.Size = new System.Drawing.Size(219, 135);
             this.btnConfiguracion.TabIndex = 9;
             this.btnConfiguracion.Text = "Configuración";
             this.btnConfiguracion.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -248,8 +260,9 @@
             this.PanelMenuSuperior.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.PanelMenuSuperior.Dock = System.Windows.Forms.DockStyle.Top;
             this.PanelMenuSuperior.Location = new System.Drawing.Point(0, 0);
+            this.PanelMenuSuperior.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.PanelMenuSuperior.Name = "PanelMenuSuperior";
-            this.PanelMenuSuperior.Size = new System.Drawing.Size(198, 97);
+            this.PanelMenuSuperior.Size = new System.Drawing.Size(223, 121);
             this.PanelMenuSuperior.TabIndex = 0;
             // 
             // PanelSuperior
@@ -260,9 +273,10 @@
             this.PanelSuperior.Controls.Add(this.btnInicio);
             this.PanelSuperior.Controls.Add(this.btnOcultarMenu);
             this.PanelSuperior.Dock = System.Windows.Forms.DockStyle.Top;
-            this.PanelSuperior.Location = new System.Drawing.Point(200, 0);
+            this.PanelSuperior.Location = new System.Drawing.Point(225, 0);
+            this.PanelSuperior.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.PanelSuperior.Name = "PanelSuperior";
-            this.PanelSuperior.Size = new System.Drawing.Size(1191, 44);
+            this.PanelSuperior.Size = new System.Drawing.Size(1340, 54);
             this.PanelSuperior.TabIndex = 1;
             // 
             // btnUsuario
@@ -277,9 +291,10 @@
             this.btnUsuario.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnUsuario.IconSize = 30;
             this.btnUsuario.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnUsuario.Location = new System.Drawing.Point(1083, 0);
+            this.btnUsuario.Location = new System.Drawing.Point(1220, 0);
+            this.btnUsuario.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnUsuario.Name = "btnUsuario";
-            this.btnUsuario.Size = new System.Drawing.Size(52, 40);
+            this.btnUsuario.Size = new System.Drawing.Size(58, 50);
             this.btnUsuario.TabIndex = 13;
             this.btnUsuario.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnUsuario.UseVisualStyleBackColor = true;
@@ -296,9 +311,10 @@
             this.btnInicio.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnInicio.IconSize = 30;
             this.btnInicio.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnInicio.Location = new System.Drawing.Point(1135, 0);
+            this.btnInicio.Location = new System.Drawing.Point(1278, 0);
+            this.btnInicio.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnInicio.Name = "btnInicio";
-            this.btnInicio.Size = new System.Drawing.Size(52, 40);
+            this.btnInicio.Size = new System.Drawing.Size(58, 50);
             this.btnInicio.TabIndex = 12;
             this.btnInicio.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnInicio.UseVisualStyleBackColor = true;
@@ -317,8 +333,9 @@
             this.btnOcultarMenu.IconSize = 30;
             this.btnOcultarMenu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnOcultarMenu.Location = new System.Drawing.Point(0, 0);
+            this.btnOcultarMenu.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnOcultarMenu.Name = "btnOcultarMenu";
-            this.btnOcultarMenu.Size = new System.Drawing.Size(52, 40);
+            this.btnOcultarMenu.Size = new System.Drawing.Size(58, 50);
             this.btnOcultarMenu.TabIndex = 11;
             this.btnOcultarMenu.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnOcultarMenu.UseVisualStyleBackColor = true;
@@ -328,9 +345,10 @@
             // 
             this.PanelContenedor.Controls.Add(this.lblMensajeMenu);
             this.PanelContenedor.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.PanelContenedor.Location = new System.Drawing.Point(200, 44);
+            this.PanelContenedor.Location = new System.Drawing.Point(225, 54);
+            this.PanelContenedor.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.PanelContenedor.Name = "PanelContenedor";
-            this.PanelContenedor.Size = new System.Drawing.Size(1191, 665);
+            this.PanelContenedor.Size = new System.Drawing.Size(1340, 832);
             this.PanelContenedor.TabIndex = 3;
             // 
             // lblMensajeMenu
@@ -338,21 +356,22 @@
             this.lblMensajeMenu.AutoSize = true;
             this.lblMensajeMenu.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMensajeMenu.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(34)))), ((int)(((byte)(118)))));
-            this.lblMensajeMenu.Location = new System.Drawing.Point(314, 203);
+            this.lblMensajeMenu.Location = new System.Drawing.Point(353, 254);
             this.lblMensajeMenu.Name = "lblMensajeMenu";
-            this.lblMensajeMenu.Size = new System.Drawing.Size(491, 46);
+            this.lblMensajeMenu.Size = new System.Drawing.Size(592, 55);
             this.lblMensajeMenu.TabIndex = 0;
             this.lblMensajeMenu.Text = "Bienvenida Menu Principal";
             // 
             // FrmMenuPrincipal
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1391, 709);
+            this.ClientSize = new System.Drawing.Size(1565, 886);
             this.Controls.Add(this.PanelContenedor);
             this.Controls.Add(this.PanelSuperior);
             this.Controls.Add(this.PanelMenu);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "FrmMenuPrincipal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MenuPrincipal";

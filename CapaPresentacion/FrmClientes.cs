@@ -43,5 +43,33 @@ namespace CapaPresentacion
         {
 
         }
+
+        private void btnCancelar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnGuardar_Click(object sender, EventArgs e)
+        {
+
+            CD_Clientes cliente = new CD_Clientes();
+
+            cliente.mtdAgregarClientes
+            (txtNombres.Text,
+            txtDireccion.Text,
+            txtPais.Text,
+            txtDepartamento.Text,
+            cboxCategoria.Text,
+            cboxEstado.Text);
+
+            MessageBox.Show("El cliente se agregó con éxito", "Correcto",
+            MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+        }
+
+        private void dgvClientes_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }
