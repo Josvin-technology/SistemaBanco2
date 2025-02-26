@@ -52,7 +52,6 @@ namespace CapaPresentacion
                     );
 
 
-
                 MessageBox.Show("La Cuenta se agregó con éxito", "Correcto",
                     MessageBoxButtons.OK, MessageBoxIcon.Information);
 
